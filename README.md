@@ -64,20 +64,67 @@ Simple and accessible for gig workers.
 Persona-Based Scenario
 --------------------------------
 
-Persona: Ravi – Food Delivery Partner  
+Persona: Ravi– Full-Time Food Delivery Partner (Urban High-Density Zone)
 
-Weekly Income: ₹5000  
+Profile  
+• Age: 35
+• Platform: Swiggy  
+• City: Delhi (High AQI + Seasonal Rain Risk)  
+• Work Pattern: 8–10 hours/day (Lunch + Dinner peak focus)  
+• Weekly Income: ₹5000–₹6500  
+• Payment Model: Per delivery + surge incentives  
+• Dependency: 90% of income depends on active working hours  
 
-During heavy rainfall:
-- Earnings drop to ₹3500  
-- Income loss = ₹1500  
+Behavioral Insights  
+• Works primarily during peak hours (12–3 PM, 7–11 PM)  
+• Avoids working during extreme weather due to safety and low demand  
+• Relies on consistent daily earnings for expenses  
+• No savings buffer for income disruptions  
 
-System Response:
-- Rainfall trigger detected  
-- Activity drop confirmed  
-- ₹500 payout automatically credited  
+Risk Exposure  
+• High exposure to air pollution (AQI spikes >400 in winter)  
+• Frequent rainfall disruptions reducing delivery volume  
+• Earnings drop sharply when unable to work even for 1–2 days  
 
 ---
+
+Scenario: Environmental Disruption Impact  
+
+During a severe AQI spike (AQI = 450):
+
+• Ravi reduces working hours due to unsafe conditions  
+• Delivery demand drops and outdoor activity becomes risky  
+
+Financial Impact  
+
+| Category | Amount |
+|---------|--------|
+| Normal Weekly Earnings | ₹5000 |
+| Earnings During Disruption | ₹3500 |
+| Income Loss | ₹1500 |
+
+---
+
+System Response  
+
+• Environmental Trigger Detected (AQI > 400)  
+• Activity Drop Verified (reduced movement + app usage)  
+• Fraud Checks Passed (location + behavior consistent)  
+
+→ ₹500 payout automatically credited via UPI  
+
+---
+
+Key Insight  
+
+Ravi does not need traditional insurance—he needs **instant income stabilization during short-term disruptions**.
+
+GuideWire SkyLogic ensures:
+• No claim filing  
+• No delay  
+• No dependency on manual verification  
+
+→ Direct financial support when income is disrupted  
 
 Application Workflow
 -----------------------
