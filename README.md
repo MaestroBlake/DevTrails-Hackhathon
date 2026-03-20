@@ -12,7 +12,7 @@ When such disruptions occur, gig workers often experience reduced working hours 
 
 To address this issue, this project proposes an AI-enabled parametric insurance platform designed specifically for gig workers. The platform provides automated income protection whenever environmental disruptions affect their ability to work.
 
-The system utilizes real-time environmental data, risk-based models, and automated payout mechanisms to deliver quick financial support. By offering a structured and affordable subscription model, the platform ensures that gig workers receive timely compensation without complicated claim procedures.
+The system utilizes real-time environmental data, risk-based models, and automated payout mechanisms to deliver quick financial support while maintaining a sustainable and fair pricing system.
 
 ---
 
@@ -30,8 +30,8 @@ This project aims to develop a smart parametric insurance system that automatica
 Key Features :
 ---------------
 
-• Monthly Micro-Insurance Subscription with Weekly Billing  
-Gig workers enrol in a structured monthly plan with weekly auto-deductions, ensuring affordability while preventing misuse.
+• Weekly Micro-Insurance Subscription  
+Gig workers subscribe to affordable weekly plans aligned with their earning cycles.
 
 • Parametric Triggers Based on Environmental Data  
 The system monitors real-time environmental conditions such as rainfall, temperature, pollution levels, and disaster alerts to determine when coverage should activate.
@@ -45,6 +45,9 @@ Premiums are calculated using expected loss models based on disruption probabili
 • AI-Driven Fraud Detection  
 Anomaly detection models analyze user behavior to identify suspicious activity such as fake GPS or duplicate accounts.
 
+• Continuity-Based Coverage Model  
+Users benefit from continuous subscription through reduced waiting time and full eligibility, discouraging short-term misuse while maintaining weekly pricing.
+
 • Mobile-First Platform  
 A user-friendly mobile application allows gig workers to subscribe, track coverage, receive alerts, and access payouts easily.
 
@@ -53,10 +56,10 @@ A user-friendly mobile application allows gig workers to subscribe, track covera
 Persona-Based Scenario
 --------------------------------
 
-Persona 1: Sahil – Food Delivery Partner
+Persona 1: Shiva – Food Delivery Partner
 
 Profile  
-• Age: 23  
+• Age: 26  
 • Platform: Swiggy  
 • Weekly Income: ₹5000  
 
@@ -69,7 +72,7 @@ Normal Weekly Earnings        ₹5000
 Actual Earnings During Disruption        ₹3500  
 Income Loss        ₹1500  
 
-Since the rainfall level exceeds the predefined parametric threshold, the platform automatically triggers an insurance payout of ₹500 to support Sahil during the disruption.
+Since the rainfall level exceeds the predefined parametric threshold and reduced activity is detected, the platform automatically triggers an insurance payout of ₹500 to support Shiva during the disruption.
 
 ---
 
@@ -80,43 +83,32 @@ Application Workflow
 The gig worker registers on the platform using their mobile number.
 
 2. Insurance Subscription  
-The worker subscribes to a monthly insurance plan with weekly deductions.
+The worker subscribes to a weekly micro-insurance plan.
 
 3. Waiting Period Activation  
-Coverage becomes active after a short waiting period (7–10 days) to prevent misuse.
+Coverage becomes active after a short waiting period (3–7 days) to prevent misuse.
 
 4. Environmental Data Collection  
 The system continuously collects real-time environmental data (weather, pollution, disasters) from external APIs.
 
-5. Risk Monitoring  
-The system evaluates disruption probability using historical and real-time data.
+5. Activity Monitoring  
+The system tracks user activity levels (e.g., delivery patterns or app usage).
 
 6. Trigger Detection  
-If predefined parametric trigger conditions are met, the system activates the insurance process.
+Payout is triggered only when:
+- Environmental thresholds are exceeded  
+AND  
+- A measurable drop in activity is observed  
 
 7. Automatic Payout  
 The compensation amount is automatically transferred to the worker’s account via UPI without requiring a manual claim process.
 
 ---
 
-Subscription & Pricing Model
+Weekly Premium Model
 -------------------------------
 
-To ensure sustainability and prevent adverse selection, the platform uses a structured subscription model.
-
-Key Mechanisms  
-
-• Monthly Lock-in Period  
-Users must subscribe at the beginning of a billing cycle and cannot enter/exit mid-cycle.
-
-• Waiting Period  
-Coverage activates after 7–10 days from subscription.
-
-• Weekly Auto-Deduction  
-Premiums are deducted weekly within the monthly plan.
-
-• Dynamic Pricing  
-Premiums vary based on city, season, and risk level.
+The platform strictly follows a weekly pricing structure aligned with gig worker income cycles.
 
 Example Insurance Plans  
 
@@ -128,10 +120,27 @@ Example Insurance Plans
 
 ---
 
+Sustainability & Misuse Prevention
+-----------------------------------
+
+To ensure long-term viability and prevent exploitation:
+
+• Waiting Period  
+New users must wait 3–7 days before becoming eligible for payouts.
+
+• Continuity-Based Eligibility  
+Continuous subscribers receive full coverage benefits, while new or intermittent users have limited eligibility.
+
+• Activity Validation  
+Payouts require both environmental trigger AND reduced worker activity.
+
+• Dynamic Risk-Based Pricing  
+Premiums vary based on city, season, and historical disruption probability.
+
+---
+
 Parametric Insurance Triggers
 -------------------------------
-
-Instead of verifying individual claims, the system uses predefined environmental thresholds to automatically trigger payouts.
 
 1. Rainfall Trigger  
 Condition: Rainfall > 120 mm/day  
@@ -150,15 +159,11 @@ Condition: Official disaster warning issued
 AI / ML Integration
 ----------------------
 
-Artificial Intelligence and data-driven models are used to improve pricing, detect fraud, and predict environmental risks.
-
 1. Premium Calculation  
-
-Premium is calculated using an expected loss model:
 
 Premium ≈ P(trigger) × payout + margin  
 
-This ensures pricing aligns with actual risk levels.
+Where P(trigger) is calculated using historical and recent environmental data.
 
 ---
 
