@@ -64,7 +64,7 @@ Simple and accessible for gig workers.
 Persona-Based Scenario
 --------------------------------
 
-Persona: Shiva – Food Delivery Partner  
+Persona: Ravi – Food Delivery Partner  
 
 Weekly Income: ₹5000  
 
